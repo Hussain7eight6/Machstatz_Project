@@ -12,7 +12,7 @@
         <li id={{item["email"]}}></li>{{item["name"]}}</li><br>
         {%endfor%}
     </ul>
-    <form action="http://localhost:5000/machstatz/delete_existing_user",method="post">
+    <form action="http://0.0.0.0/machstatz/delete_existing_user",method="post">
     <label for="email"><b>Email:</b>
     </label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
