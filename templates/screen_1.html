@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Existing Users</title>
+</head>
+<body>
+      <form action="http://localhost:5000/machstatz/add_new_user",method='POST'>
+          <div class="container">
+              <h1>Add User</h1>
+              <label for="email"><b>Email:</b>
+                </label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+
+                <label for="fname"><b>First name:</b>
+                </label>
+                <input type="text" name="fname" id="fname"> <br>
+                <label for="lname"><b>Last name:</b>
+                </label>
+                <input type="text" name="lname" id="lname"> <br>
+                <label for="pwd" 
+                <b>Password:</b></label>
+                <input type="password" placeholder="Enter Password"
+                name="pwd" id="pwd" required><br>
+                <label for="username"><b>User name:</b>
+                </label>
+                <input type="text" name="username" id="username"><br>
+                <input type="submit" formmethod="POST" value="Add">
+
+                
+          </div>
+      </form>
+</body>
+</html>
